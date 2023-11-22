@@ -43,12 +43,11 @@ wget https://raw.githubusercontent.com/xditya/ChannelActionsBot/deno/install.sh 
 > [Watch the video tutorial on deploying!](https://youtu.be/hjxfJtk5ZWs)
 
 1. Open [deno deploy](https://dash.deno.com/), create a new project.
-2. [Fork](https://github.com/xditya/ChannelActionsBot/fork) the `deno` branch of
-   this repo.
-3. Search for this repo on deno deploy, set branch as deno, set file as
+
+2. Search for this repo on deno deploy, set branch as deno, set file as
    `main.ts`
-4. Add your environment vars and click "Link".
-5. Once done, open the deployment page, copy deployment URL, set your bot's
+3. Add your environment vars and click "Link".
+4. Once done, open the deployment page, copy deployment URL, set your bot's
    webhook using
    `https://api.telegram.org/bot<your_bot_token_here>/setWebhook?url=<deployment_url_here>/<your_bot_token_here>`.
 
@@ -66,12 +65,3 @@ wget https://raw.githubusercontent.com/xditya/ChannelActionsBot/deno/install.sh 
 4. Edit the text in the new file, save it and make a pull request to this
    repository.
 5. That's it! The pr will be tested and merged.
-
-## Support
-
-- Telegram, [@BotzHubChat](https://t.me/BotzHubChat)
-
-## Credits
-
-- [Me](https://xditya.me) for this bot.
-- [grammY](https://grammy.dev).
